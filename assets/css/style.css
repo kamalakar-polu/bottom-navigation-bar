@@ -1,0 +1,40 @@
+.mobile-bottom-menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.bottom-navbar {
+    background-color: #09015f;
+    padding: 0.7rem;
+}
+
+.bottom-navbar .nav>.nav-item {
+    display: flex;
+}
+
+.bottom-navbar .nav>.nav-item a {
+    color: #877eff;
+}
+
+.bottom-navbar .nav>.nav-item.active {
+    background-color: #100492;
+    border-radius: 10px;
+}
+.bottom-navbar .nav>.nav-item.active a  {
+    color: #e0e0e0;
+}
+.bottom-navbar .nav>.nav-item.active .nav-link>span {
+    display: block;
+    margin-left: 8px;
+    transition: 1s ease-in-out;
+}
+
+.bottom-navbar .nav>.nav-item .nav-link {
+    display: flex;
+    align-items: center;
+}
+.bottom-navbar .nav>.nav-item .nav-link>span {
+    display: none;
+    transition: 1s ease-in-out;
+}
